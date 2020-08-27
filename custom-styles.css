@@ -10,6 +10,8 @@ main>.container {
 .contact {
     background-color: wheat;
     padding: 25px 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 main {
