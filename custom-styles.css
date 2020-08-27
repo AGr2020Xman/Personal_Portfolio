@@ -7,6 +7,10 @@ main>.container {
     padding: 15px 15px 15px;
 }
 
+body {
+    background-image: url("./Assets/Images/moroccan-flower.png");
+}
+
 .window-size-custom {
     background-color: #f1faee;
     padding: 25px 20px;
