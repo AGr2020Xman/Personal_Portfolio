@@ -60,7 +60,7 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarCollapse"
         >
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link non-head-text" href="./contact.html"
                 >Contact <span class="sr-only">(current)</span></a
@@ -68,8 +68,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link non-head-text" href="./portfolio.html"
-                >Portfolio</a
-              >
+                >Portfolio
+              </a>
             </li>
             <li class="nav-item">
               <a
@@ -77,8 +77,8 @@
                 href="./index.html"
                 tabindex="-1"
                 aria-disabled="true"
-                >About
-              </a>
+                >About</a
+              >
             </li>
           </ul>
         </div>
@@ -131,13 +131,21 @@
       </div>
     </main>
 
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted non-head-text"> &copy; AGr Pty Ltd </span>
-        <span>
-          <a class="" href="./contact.html">Contact me</a>
+    <footer class="footer mt-auto py-3 container-fluid">
+      <div class="row">
+        <span
+          class="text-muted non-head-text footer-text justify-content-start col-sm-4"
+        >
+          &copy; AGr Pty Ltd
         </span>
-        <span>
+        <span
+          class="text-muted non-head-text footer-text col-sm-4 justify-content-center"
+        >
+          <a href="./contact.html">Contact me</a>
+        </span>
+        <span
+          class="text-muted non-head-text col-sm-4 footer-text justify-content-end"
+        >
           <a href="#top">Return to top</a>
         </span>
       </div>
