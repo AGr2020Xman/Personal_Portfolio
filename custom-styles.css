@@ -30,3 +30,7 @@ main {
 code {
     font-size: 80%;
 }
+
+.row>img {
+    margin: 10px 0;
+}
