@@ -16,15 +16,20 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    
 
     <!-- Custom styles for this template -->
     <link href="./custom-styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway&display=swap" rel="stylesheet">
+    <!-- Coolors Palette Widget -->
+    <script src="https://coolors.co/palette-widget/widget.js"></script>
+    <script data-id="08901008364158189">new CoolorsPaletteWidget("08901008364158189", ["e63946","f1faee","a8dadc","457b9d","1d3557"]); </script>
   </head>
   <body class="d-flex flex-column h-100">
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Andr&eacute; Grech</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-color-palette">
+        <a class="navbar-brand text-highlight non-head-text" href="#">Andr&eacute; Grech</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,17 +41,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse pull-right" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link non-head-text" href="./contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link non-head-text" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item active">
               <a
-                class="nav-link"
+                class="nav-link non-head-text"
                 href="./index.html"
                 tabindex="-1"
                 aria-disabled="true"
@@ -62,12 +67,16 @@
       <div class="container">
         <section class="row">
           <article class="col-sm-8 window-size-custom">
-            <h1 class="col-sm-6">About Me</h1>
+            <h1>
+              About Me
+            </h1>
+              <hr />
+            </h1>
             <img
               class="img-responsive image-wrapper col-sm-6 float-left"
               src=".\Assets\Images\Img1Port.jpg"
             />
-            <p class="col-sm-12">
+            <p class="col-sm-12 non-head-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               vulputate tempor leo, sit amet feugiat tellus euismod in.
               Suspendisse gravida lorem augue, eu ultricies libero tempus nec.
@@ -83,7 +92,7 @@
               malesuada, tortor eget vestibulum sagittis, diam nisi dictum
               dolor, ac lacinia sapien arcu vitae dolor.
             </p>
-            <p class="col-sm-12">
+            <p class="col-sm-12 non-head-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               vulputate tempor leo, sit amet feugiat tellus euismod in.
               Suspendisse gravida lorem augue, eu ultricies libero tempus nec.
@@ -106,7 +115,7 @@
 
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted non-head-text">Place sticky footer content here.</span>
       </div>
     </footer>
     <script

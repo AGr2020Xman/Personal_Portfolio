@@ -19,12 +19,27 @@
 
     <!-- Custom styles for this template -->
     <link href="./custom-styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Coolors Palette Widget -->
+    <script src="https://coolors.co/palette-widget/widget.js"></script>
+    <script data-id="08901008364158189">
+      new CoolorsPaletteWidget("08901008364158189", [
+        "e63946",
+        "f1faee",
+        "a8dadc",
+        "457b9d",
+        "1d3557",
+      ]);
+    </script>
   </head>
   <body class="d-flex flex-column h-100">
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Andr&eacute; Grech</a>
+        <a class="navbar-brand non-head-text" href="#">Andr&eacute; Grech</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,12 +54,14 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./contact.html"
+              <a class="nav-link non-head-text" href="./contact.html"
                 >Contact <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link non-head-text" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="nav-item">
               <a
@@ -64,13 +81,17 @@
       <div class="container">
         <section class="row">
           <article class="col-sm-8 window-size-custom">
-            <h1>Contact</h1>
+            <h1>
+              Contact
+              <hr />
+            </h1>
+
             <form>
               <div class="form-group col-10">
                 <label for="exampleFormControlInput1">Name</label>
                 <input
                   type="text"
-                  class="form-control"
+                  class="form-control non-head-text"
                   id="exampleFormControlInput1"
                   placeholder="Name"
                 />
@@ -79,7 +100,7 @@
                 <label for="exampleFormControlInput1">Email address</label>
                 <input
                   type="email"
-                  class="form-control"
+                  class="form-control non-head-text"
                   id="exampleFormControlInput1"
                   placeholder="name@email.com"
                 />
@@ -87,13 +108,15 @@
               <div class="form-group col-10">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea
-                  class="form-control"
+                  class="form-control non-head-text"
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Message"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary non-head-text">
+                Submit
+              </button>
             </form>
           </article>
         </section>
@@ -102,7 +125,9 @@
 
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted non-head-text"
+          >Place sticky footer content here.</span
+        >
       </div>
     </footer>
     <script

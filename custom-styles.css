@@ -18,6 +18,23 @@ main {
     margin-top: 120px;
 }
 
+.nav-color-palette {
+    background-color: #1d3557;
+    color: ;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+}
+
+.non-head-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-highlight {
+    background-color: cyan;
+}
+
 .footer {
     background-color: #f5f5f5;
 }
