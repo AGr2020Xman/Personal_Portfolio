@@ -42,7 +42,7 @@
         class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
         id="top"
       >
-        <a class="navbar-brand non-head-text text-highlight" href="#"
+        <a class="navbar-brand non-head-text text-highlight" href=".\index.html"
           >Andr&eacute; Grech</a
         >
         <button
@@ -95,53 +95,109 @@
               <hr />
             </h1>
 
-            <section class="row">
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\Graduating.jpg"
-                alt="Science graduation photo"
-              />
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\FunTimes.jpg"
-                alt="Showcasing personality photo"
-              />
+            <div class="row" id="resume-section">
+              <h5 class="col-sm-6">
+                <a
+                  id="resume-link"
+                  href="https://drive.google.com/file/d/18S-gAlxMWgtsP1Sg6OE9Ul0Y0BoAZuza/view?usp=sharing"
+                >
+                  Link to my Resum&eacute;
+                </a>
+              </h5>
+            </div>
+            <section class="row portfolio-section">
+              <div class="col-sm-6">
+                <a
+                  href="https://agr2020xman.github.io/Project_1-Basketball-News/"
+                  ><img
+                    class="col-sm-12 img-responsive portfolio-image"
+                    src="./Assets/Images/BasketNewsProject.JPG"
+                    alt="Major work for basketball and stats"
+                  />
+                </a>
+              </div>
+              <div class="col-sm-6">
+                <h3>
+                  <a
+                    target="_blank"
+                    href="https://github.com/AGr2020Xman/Project_1-Basketball-News"
+                    >Project Basket News</a
+                  >
+                </h3>
+                <p>
+                  My first major work putting together all I've learned so far
+                  to manipulate APIs and create a convenient Basketball
+                  statistics and news application.
+                </p>
+              </div>
             </section>
-            <section class="row">
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\Nerd Journey.jpg"
-                alt="Going out with a star wars shirt on - nerd moment photo"
-              />
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\NewYearSameMe.jpg"
-                alt="Profile photo"
-              />
+            <section class="row portfolio-section">
+              <div class="col-sm-6">
+                <a href="https://agr2020xman.github.io/Weather-Dashboard/"
+                  ><img
+                    class="col-sm-12 img-responsive portfolio-image"
+                    src="./Assets/Images/WeatherDashboard.JPG"
+                    alt="Weather dashboard online application"
+                /></a>
+              </div>
+              <div class="col-sm-6">
+                <h3>
+                  <a
+                    target="_blank"
+                    href="https://github.com/AGr2020Xman/Weather-Dashboard"
+                    >Weather Dashboard project</a
+                  >
+                </h3>
+                <p>
+                  First major use of APIs in my work. Accesses a weather
+                  dashboard to retrieve forecasted data on user searched cities.
+                  Compatible with both imperial and metric unit regions.
+                </p>
+              </div>
             </section>
-            <section class="row">
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\Running.jpg"
-                alt="Sports gear on photo"
-              />
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\Computer1.jpg"
-                alt="Self-built PC with RGB photo"
-              />
+            <section class="row portfolio-section">
+              <div class="col-sm-6">
+                <a href="https://agr2020xman.github.io/Day-Planner/"
+                  ><img
+                    class="col-sm-12 img-responsive portfolio-image"
+                    src="./Assets/Images/DayPlanner.JPG"
+                    alt="Day planning application"
+                /></a>
+              </div>
+              <div class="col-sm-6">
+                <h3 id="day-planner-desc">
+                  <a target="_blank" href="https://github.com/Day-Planner/"
+                    >Day Planner project</a
+                  >
+                </h3>
+                <p>
+                  A 9 to 5 day planner to store daily events across the day.
+                  Updates hourly and refreshes based on the current hour. Useful
+                  for planning or goal setting.
+                </p>
+              </div>
             </section>
-            <section class="row">
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\PiecedeResistance.jpg"
-                alt="Millenium Falcon lego photo"
-              />
-              <img
-                class="col-sm-6 img-fluid"
-                src=".\Assets\Images\CollectionCont.jpg"
-                alt="Lego display cabinet photo"
-              />
+            <section class="row portfolio-section">
+              <div class="col-sm-6">
+                <a href="https://agr2020xman.github.io/Code-Quiz/"
+                  ><img
+                    class="col-sm-12 img-responsive portfolio-image"
+                    src="./Assets/Images/CodeQuiz.JPG"
+                    alt="Coding quiz application"
+                /></a>
+              </div>
+              <div class="col-sm-6">
+                <h3>
+                  <a target="_blank" href="https://github.com/Code-Quiz/"
+                    >Coding Quiz project</a
+                  >
+                </h3>
+                <p>
+                  A timed quiz that saves highscores based on the performance of
+                  the individual. The highscores can be viewed and are saved
+                  using browser local storage.
+                </p>
+              </div>
             </section>
           </article>
         </section>
@@ -151,19 +207,32 @@
     <footer class="footer mt-auto py-3 container-fluid">
       <div class="row">
         <span
-          class="text-muted non-head-text footer-text justify-content-start col-sm-4"
+          class="text-muted non-head-text footer-text justify-content-start col-sm-3"
         >
           &copy; AGr Pty Ltd
         </span>
         <span
-          class="text-muted non-head-text footer-text col-sm-4 justify-content-center"
+          class="text-muted non-head-text footer-text justify-content-start col-sm-3"
+        >
+          <a href="https://github.com/AGr2020Xman" target="_blank">
+            <img class="thumbnails" src="./Assets/Images/github_icon.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/andregrech95/" target="_blank">
+            <img
+              class="thumbnails"
+              src="./Assets/Images/linkedin-icon-logo-png.png"
+            />
+          </a>
+        </span>
+        <span
+          class="text-muted non-head-text footer-text col-sm-3 justify-content-center"
         >
           <a href="./contact.html">Contact me</a>
         </span>
         <span
-          class="text-muted non-head-text col-sm-4 footer-text justify-content-end"
+          class="text-muted non-head-text col-sm-3 footer-text justify-content-end"
         >
-          <a href="#top-of-page">Return to top</a>
+          <a href="#top-of-page">Top of Page</a>
         </span>
       </div>
     </footer>
