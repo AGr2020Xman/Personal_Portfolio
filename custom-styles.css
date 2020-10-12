@@ -93,3 +93,9 @@ span>a: code {
 .thumbnails:hover {
     cursor: pointer;
 }
+
+.portfolio-image:hover {
+    opacity: 80%;
+    cursor: pointer;
+    border: black 1px dotted;
+}
