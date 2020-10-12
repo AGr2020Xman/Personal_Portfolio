@@ -95,7 +95,21 @@ span>a: code {
 }
 
 .portfolio-image:hover {
-    opacity: 80%;
+    opacity: 50%;
     cursor: pointer;
-    border: black 1px dotted;
+}
+
+#resume-section {
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.portfolio-section {
+    margin-bottom: 10px;
+    border: cadetblue solid 2px;
+    padding: 5px 0 5px 0;
+}
+
+#day-planner-desc {
+    padding-top: 25%;
 }
